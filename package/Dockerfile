@@ -37,3 +37,7 @@ COPY rke-etcd-backup /opt/rke-tools
 
 VOLUME /opt/rke-tools
 CMD ["/bin/bash"]
+LABEL org.label-schema.build-date "2019-04-04T21:58:42Z"
+LABEL org.label-schema.schema-version "1.0"
+LABEL org.label-schema.vcs-ref "e03c207e3d36e0419e94feaa846db62963e89714"
+LABEL org.label-schema.vcs-url "https://github.com/rancher/rke-tools.git"
